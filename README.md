@@ -106,7 +106,7 @@ ns-3/scratch/
 Example:
 
 ```bash
-./ns3 run "scratch/hello --topology=4 --tcp=2 --traffic=1 --routing=1 --stopTime=30 --sender=0 --receiver=5"
+./ns3 run scratch/hello -- --topology=4 --tcp=2 --traffic=1 --routing=1 --stopTime=30 --sender=0 --receiver=5
 ```
 
 ### D. Outputs
