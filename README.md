@@ -119,22 +119,23 @@ Example:
 
 ## 📊 FlowMonitor Parser (Web-based)
 
-Visualize XML output in your browser with no setup!
-
-🔗 GitHub Repo:  
-**[NS-3 FlowMonitor Visualization Tool](https://github.com/Akshith-desu/NS-3-FlowMonitor-Visualization)**
+A browser-based HTML tool for parsing and visualizing flowmon.xml outputs.
 
 ### Features:
+- Bar and line charts for:
+  - Throughput
+  - Delay
+  - Jitter
+  - Packet loss
+- Dynamic flow table with status indicators
+-Flow breakdown table
+- No server/backend required
 
-- Interactive charts (Throughput, Delay, Jitter, Loss)
-- Status ratings: Good / Fair / Poor
-- Flow breakdown table
-- Client-only (Chart.js)
+🔗 GitHub Link:
+[NS-3 FlowMonitor Visualization](https://github.com/Akshith-desu/NS-3-FlowMonitor-Visualization)
 
-### Usage:
-
-Open `index.html` → upload `flowmon.xml` → analyze flows
-
+### Setup:
+Simply open index.html in your browser and upload a *_flowmon.xml file.
 ---
 
 ## 📽 NetAnim Visualization
